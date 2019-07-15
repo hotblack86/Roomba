@@ -50,3 +50,9 @@ The output from index.js will be visible in the console
 ```
 npm test
 ```
+
+- If you wish, you can change the input in input.txt as long as the format is the same. Likewise if you have a different txt file you wish to use as input then simply change the parameter of the following line in index.js
+```
+datahandler.parse('./your/path/to/file.txt"');
+```
+Again the format of the file must be the same as input.txt.
