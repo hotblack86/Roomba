@@ -1,4 +1,3 @@
-Implementation & Sales Engineer Technical Exercise
 
 A program that navigates an imaginary robotic hoover (much like a Roomba) through an equally imaginary room.
 
@@ -22,12 +21,12 @@ A program that navigates an imaginary robotic hoover (much like a Roomba) throug
 **Installation**
 - clone this repository
 ```
-git clone git@github.com:hotblack86/Tray_TT.git
+git clone git@github.com:hotblack86/Roomba.git
 ```
 
 - go to repository folder
 ```
-cd Tray_TT
+cd Roomba
 ```
 
 - make sure you have node and npm installed
