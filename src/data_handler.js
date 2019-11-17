@@ -20,7 +20,7 @@ class DataHandler {
   } 
 
   dirtPatches() {
-    var result =  this.datastore.slice(2, -1).map(x => x.split(' '));
+    const result =  this.datastore.slice(2, -1).map(x => x.split(' '));
     return result.map(x => x.map(Number)); 
   }
 
