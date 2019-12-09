@@ -8,6 +8,9 @@ const game = (function(){
     let floor = new Floor(datahandler.roomDimensions(), datahandler.dirtPatches());
     let hoover = new Hoover(floor, datahandler.hooverPosition());
     hoover.move(datahandler.drivingDirections());
-    console.log([hoover.position[0], hoover.position[1]].join(' '));
-    console.log(hoover.dirtCleaned.toString());
+    console.log('\n');
+    console.log(`Final Roomba Position(X Y) = ${[hoover.position[0], hoover.position[1]].join(' ')}`);
+    console.log('\n');
+    console.log(`Number of Dirt Patches Cleaned = ${hoover.dirtCleaned.toString()}`);
+    console.log('\n');
 })();
